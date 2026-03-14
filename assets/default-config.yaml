@@ -1,0 +1,64 @@
+# wechat-writer 默认配置
+# 复制此文件到 ~/.openclaw/skills/wechat-writer/config.yaml 并修改
+
+# 行业方向
+industry: "人工智能"
+
+# 选题配置
+topic:
+  count: 20              # 每次推荐选题数量
+  min_relevance: 0.3     # 最低相关性阈值
+  show_sources: true     # 选题展示来源信息
+
+# 热点源
+sources:
+  - name: "Hacker News"
+    type: rss
+    url: "https://hnrss.org/newest?points=100"
+    enabled: true
+  - name: "36氪"
+    type: rss
+    url: "https://36kr.com/feed"
+    enabled: true
+  - name: "InfoQ中文"
+    type: rss
+    url: "https://www.infoq.cn/feed"
+    enabled: true
+
+# 文章输出
+article:
+  format: "html"
+  theme: "default"          # default | dark | elegant | tech
+  primary_color: "#1a73e8"
+  font_family: "'PingFang SC', 'Microsoft YaHei', sans-serif"
+  line_height: 1.8
+  indent_first_line: false
+  code_theme: "github"
+
+# 写作风格
+writing:
+  default_style: "professional"  # professional | storytelling | opinion | tutorial | casual
+  tone: "专业但不枯燥"
+  target_length: 2000
+  language: "zh-CN"
+
+# 微信公众号
+wechat:
+  appid: ""
+  secret: ""
+  author: ""
+  enable_comment: false
+
+# 配图
+images:
+  provider: "unsplash"    # unsplash | pexels | ai
+  api_key: ""
+  default_count: 3
+  style: "tech"
+
+# Token 优化
+optimization:
+  max_hotspot_summary_tokens: 3000
+  max_article_tokens: 4000
+  enable_incremental_edit: true
+  batch_topic_threshold: 10

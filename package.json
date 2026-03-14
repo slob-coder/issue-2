@@ -1,0 +1,26 @@
+{
+  "name": "wechat-writer",
+  "version": "1.0.0",
+  "description": "微信公众号文章写手 - OpenClaw Skill",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "test": "node --test dist/**/*.test.js",
+    "dev": "tsc --watch",
+    "clean": "rm -rf dist"
+  },
+  "keywords": ["wechat", "writer", "openclaw", "skill"],
+  "license": "MIT",
+  "dependencies": {
+    "rss-parser": "^3.13.0",
+    "js-yaml": "^4.1.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.4.0",
+    "@types/js-yaml": "^4.0.9",
+    "@types/node": "^20.0.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}

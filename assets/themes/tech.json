@@ -1,0 +1,20 @@
+{
+  "name": "tech",
+  "primaryColor": "#00bcd4",
+  "secondaryColor": "#78909c",
+  "backgroundColor": "#0d1117",
+  "textColor": "#c9d1d9",
+  "headingColor": "#00bcd4",
+  "linkColor": "#58a6ff",
+  "quoteBackground": "#161b22",
+  "quoteBorderColor": "#00bcd4",
+  "codeBackground": "#161b22",
+  "codeTextColor": "#c9d1d9",
+  "dividerColor": "#21262d",
+  "calloutInfoBg": "#0d2137",
+  "calloutInfoBorder": "#58a6ff",
+  "calloutWarningBg": "#2d1f00",
+  "calloutWarningBorder": "#d29922",
+  "calloutTipBg": "#0d2d1f",
+  "calloutTipBorder": "#3fb950"
+}
