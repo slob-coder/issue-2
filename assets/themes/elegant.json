@@ -1,0 +1,20 @@
+{
+  "name": "elegant",
+  "primaryColor": "#6b4c3b",
+  "secondaryColor": "#8d7b6e",
+  "backgroundColor": "#faf8f5",
+  "textColor": "#3d3027",
+  "headingColor": "#6b4c3b",
+  "linkColor": "#6b4c3b",
+  "quoteBackground": "#f0ebe4",
+  "quoteBorderColor": "#6b4c3b",
+  "codeBackground": "#f0ebe4",
+  "codeTextColor": "#3d3027",
+  "dividerColor": "#d4c5b5",
+  "calloutInfoBg": "#e8e0d6",
+  "calloutInfoBorder": "#6b4c3b",
+  "calloutWarningBg": "#f5ead6",
+  "calloutWarningBorder": "#c49a2a",
+  "calloutTipBg": "#dfe8d8",
+  "calloutTipBorder": "#5a7a44"
+}

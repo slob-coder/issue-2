@@ -1,0 +1,20 @@
+{
+  "name": "dark",
+  "primaryColor": "#8ab4f8",
+  "secondaryColor": "#9aa0a6",
+  "backgroundColor": "#1e1e1e",
+  "textColor": "#e8eaed",
+  "headingColor": "#8ab4f8",
+  "linkColor": "#8ab4f8",
+  "quoteBackground": "#2d2d2d",
+  "quoteBorderColor": "#8ab4f8",
+  "codeBackground": "#2d2d2d",
+  "codeTextColor": "#e8eaed",
+  "dividerColor": "#3c4043",
+  "calloutInfoBg": "#1e3a5f",
+  "calloutInfoBorder": "#8ab4f8",
+  "calloutWarningBg": "#3e3419",
+  "calloutWarningBorder": "#fdd663",
+  "calloutTipBg": "#1e3e2e",
+  "calloutTipBorder": "#81c995"
+}
